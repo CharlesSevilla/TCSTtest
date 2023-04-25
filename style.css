@@ -1,0 +1,97 @@
+/* Set default font and color for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom right, #333, #333);
+}
+
+/* Style the header */
+header {
+  background-image: linear-gradient(#0080ff,rgba(255,0,0,0)); /* Blue */
+  color: #fff;
+  padding: 40px;
+}
+
+/* Style the logo */
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+/* Style the navigation menu */
+header nav {
+  margin-top: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+header nav a:hover {
+  color: #333;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Style the main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px
+  color: #fff;;
+}
+
+main section {
+  margin-bottom: 60px;
+  color: #fff;
+}
+main h2 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+main p {
+  line-height: 1.5;
+  color: #fff;
+}
+img {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+/* Style the footer */
+footer {
+  background-color: #0080ff; /* Blue */
+  color: #fff;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+footer p {
+  margin: 0;
+}
